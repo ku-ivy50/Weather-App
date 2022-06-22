@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+.maincard {
+  border-color: #113f67;
+  border-radius: 20px;
+  border-width: 2px;
+  background-color: #a8d8ea;
+  max-width: 899px;
+  margin: auto;
+}
+.card-body {
+  font-size: 30px;
+}
+
+.days {
+  border-color: #a2a8d3;
+  border-radius: 20px;
+  border-width: 2px;
+}
+.card-body-days {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #113f67;
+}
+.temp {
+  font-size: 50px;
+}
+
+.data {
+  list-style: none;
+  font-size: 25px;
+  display: block;
+}
+.sunny {
+  color: rgb(238, 238, 113);
+}
