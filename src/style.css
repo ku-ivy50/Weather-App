@@ -3,11 +3,11 @@
   margin-top: 50px;
 }
 .maincard {
+  font-family: "Montserrat", sans-serif;
   border-color: #113f67;
   border-radius: 20px;
   border-width: 2px;
-  background-color: #a8d8ea;
-  max-width: 899px;
+  max-width: 1000px;
   margin: auto;
 }
 .card-body {
