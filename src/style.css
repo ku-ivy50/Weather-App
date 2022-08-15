@@ -37,3 +37,7 @@
 .sunny {
   color: rgb(238, 238, 113);
 }
+
+.description {
+  list-style: none;
+}
