@@ -11,7 +11,12 @@
   margin: auto;
 }
 .card-body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 800px;
   font-size: 30px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid;
 }
 #fahrenheit-link {
   text-decoration: none;
@@ -26,14 +31,14 @@
   border-radius: 20px;
   border-width: 2px;
 }
-.card-body-days {
+.weather-forecast-day {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 20px;
   color: #113f67;
 }
 .temp {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .data {
@@ -56,4 +61,9 @@
 
 .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
 }

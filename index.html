@@ -35,72 +35,48 @@
       </form>
     </div>
     <br />
-    <div class="card maincard">
-      <div class="card-body">
-        <h1></h1>
-        <p class="currentTime">Current Time</p>
-        <ul class="data">
-          <li id="description"></li>
-          <i class="fa-regular fa-sun sun"></i>
-          <span class="currentTemp" id="temp1"></span>
-          <a href="#" id="celcius-link" class="active">°C</a>
-          |
-          <a href="#" id="fahrenheit-link">°F</a>
-          <li>
-            <i class="fa-solid fa-water"></i> Humidity:
-            <span id="humidity"> </span>
-          </li>
-          <li>
-            <i class="fa-solid fa-wind wind"></i>
-            Wind Speed: <span id="wind"> 10 </span> mph
-          </li>
-        </ul>
+    <div class="card-body">
+      <h1></h1>
+      <p class="currentTime">Current Time</p>
+      <ul class="data">
+        <li id="description"></li>
+        <i class="fa-regular fa-sun sun"></i>
+        <span class="currentTemp" id="temp1"></span>
+        <a href="#" id="celcius-link" class="active">°C</a>
+        |
+        <a href="#" id="fahrenheit-link">°F</a>
+        <li>
+          <i class="fa-solid fa-water"></i> Humidity:
+          <span id="humidity"> </span>
+        </li>
+        <li>
+          <i class="fa-solid fa-wind wind"></i>
+          Wind Speed: <span id="wind"> 10 </span> mph
+        </li>
+      </ul>
+      <div class="weather-forecast" id="forecast">
         <div class="row">
           <div class="col-sm-2">
             <div class="card days">
-              <div class="card-body-days">
+              <div class="weather-forecast-day">
                 Monday
                 <p class="temp">
                   🌞
                   <br />
-                  77°
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card days">
-              <div class="card-body-days">
-                Tuesday
-                <p class="temp">
-                  🌞
-                  <br />
-                  77°
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="card days">
-              <div class="card-body-days">
-                Wednesday
-                <p class="temp">
-                  🌞
-                  <br />
-                  87°
+                  <span class="weather-forecast-temperature-max"> 77° </span>
+                  <span class="weather-forecast-temperature-min"> 12° </span>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <small
-        ><a href="https://github.com/ku-ivy50/Weather-App" target="_blank"
-          >Open-source code</a
-        >, by Ivy Ku</small
-      >
     </div>
-
+    <small
+      ><a href="https://github.com/ku-ivy50/Weather-App" target="_blank">
+        Open-source code </a
+      >, by Ivy Ku</small
+    >
     <script src="src/index.js"></script>
   </body>
 </html>

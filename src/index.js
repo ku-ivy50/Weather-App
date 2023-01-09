@@ -38,6 +38,13 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTMl = ` 
+  
+      `;
+}
+
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
@@ -51,6 +58,7 @@ formCity = addEventListener("submit", handleSubmit);
 let celsiusTemperature = null;
 
 search("New York");
+displayForecast();
 
 let time = new Date();
 
